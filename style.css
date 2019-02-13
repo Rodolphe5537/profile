@@ -1,0 +1,128 @@
+body{
+  background: #E0E0E0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+h1, h2, h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #CF8355;
+  font-size: 26px;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+a{
+  color: #A9A9A9;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #CF8355;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 1920px) {
+.container {
+  width: 900px;
+  margin: 30px auto;
+  }
+}
+
+@media (max-width: 1024px) {
+.container {
+  width: 700px;
+  margin: 30px auto;
+  }
+}
+
+@media (max-width: 720px) {
+.container {
+  width: 500px;
+  margin: 30px auto;
+  }
+}
+
+@media (max-width: 540px) {
+.container {
+  width: 400px;
+  margin: 30px auto;
+  }
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.btn-orange{
+  background-color: #CF8355;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-orange:hover{
+  background-color: #CF6537;
+  color: white;
+}
+
+/* Specific CSS rules */
+
+#img-profile{
+  width: 200px;
+  height: 200px;
+  border: 3px solid #cccccc;
+}
+#movies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 200px;
+}
+#movies td{
+  padding: 10px;
+}
